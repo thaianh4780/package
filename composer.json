@@ -1,0 +1,33 @@
+{
+    "name": "thaianh4780/mypackage",
+    "description": "mypackage",
+    "keywords": [
+        "mypackage"
+    ],
+    "authors": [
+        {
+            "name": "foostart",
+            "email": "foostart.com@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "tailieuweb/mypackage": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "thaianh4780\\Mypackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+
+        ]
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist"
+    }
+}
